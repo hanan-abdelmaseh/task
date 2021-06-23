@@ -1,0 +1,22 @@
+<!--The code to display posts -->
+<div class="container mt-5">
+    <button class="btn btn-success mb-5" (click)="add()">add post </button>
+    <div class="row">
+
+        <div class="col-lg-4 col-md-4 " *ngFor="let post of postsData">
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{post.title}}</h5>
+
+
+                    <button class="btn viewBtn btn-info" (click)="viewPage()">
+                  view post
+              </button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>

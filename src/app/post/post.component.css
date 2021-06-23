@@ -1,0 +1,19 @@
+.card {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid red;
+}
+
+.viewBtn {
+    color: #fff;
+    border-radius: 0.9rem !important;
+}
